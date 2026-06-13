@@ -1,0 +1,11 @@
+{
+  "name": "dep-drift",
+  "version": "1.0.0",
+  "description": "Detect dependency drift between package.json ranges and installed versions. Zero deps.",
+  "bin": { "dep-drift": "./cli.js" },
+  "main": "index.js",
+  "files": ["cli.js", "index.js", "README.md"],
+  "keywords": ["dependencies", "drift", "package-json", "audit", "lockfile", "npm", "yarn"],
+  "license": "MIT",
+  "engines": { "node": ">=16" }
+}
