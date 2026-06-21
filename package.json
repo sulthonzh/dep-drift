@@ -2,10 +2,36 @@
   "name": "dep-drift",
   "version": "1.0.0",
   "description": "Detect dependency drift between package.json ranges and installed versions. Zero deps.",
-  "bin": { "dep-drift": "./cli.js" },
+  "bin": {
+    "dep-drift": "./cli.js"
+  },
   "main": "index.js",
-  "files": ["cli.js", "index.js", "README.md"],
-  "keywords": ["dependencies", "drift", "package-json", "audit", "lockfile", "npm", "yarn"],
+  "files": [
+    "cli.js",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dependencies",
+    "drift",
+    "package-json",
+    "audit",
+    "lockfile",
+    "npm",
+    "yarn"
+  ],
   "license": "MIT",
-  "engines": { "node": ">=16" }
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/dep-drift.git"
+  },
+  "homepage": "https://github.com/sulthonzh/dep-drift",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/dep-drift/issues"
+  },
+  "author": "sulthonzh"
 }
