@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/sulthonzh/dep-drift/issues"
   },
-  "author": "sulthonzh"
+  "author": "sulthonzh",
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
+  }
 }
